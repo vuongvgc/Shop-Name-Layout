@@ -1,10 +1,10 @@
 import React from "react";
-class NavBar extends React.Component {
+class Header extends React.Component {
   render() {
     return (
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div className="container">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="https://github.com/vuongvgc">
             Start Bootstrap
           </a>
           <button
@@ -21,23 +21,23 @@ class NavBar extends React.Component {
           <div className="collapse navbar-collapse" id="navbarResponsive">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item active">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="https://github.com/vuongvgc">
                   Home
                   <span className="sr-only">(current)</span>
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="https://github.com/vuongvgc">
                   About
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="https://github.com/vuongvgc">
                   Services
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="https://github.com/vuongvgc">
                   Contact
                 </a>
               </li>
@@ -48,4 +48,4 @@ class NavBar extends React.Component {
     );
   }
 }
-export default NavBar;
+export default Header;

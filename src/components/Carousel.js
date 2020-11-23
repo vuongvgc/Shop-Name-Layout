@@ -7,6 +7,7 @@ class Carousel extends React.Component {
         className="carousel slide my-4"
         data-ride="carousel"
       >
+        {/* dots indicators  */}
         <ol className="carousel-indicators">
           <li
             data-target="#carouselShopNameIndicators"
@@ -16,6 +17,7 @@ class Carousel extends React.Component {
           <li data-target="#carouselShopNameIndicators" data-slide-to="1"></li>
           <li data-target="#carouselShopNameIndicators" data-slide-to="2"></li>
         </ol>
+        {/* carousel item  */}
         <div className="carousel-inner" role="listbox">
           <div className="carousel-item active">
             <img
