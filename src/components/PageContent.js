@@ -1,7 +1,7 @@
 import React from "react";
-import Category from "./Category";
+import SideBar from "./SideBar";
 import Carousel from "./Carousel";
-import ProductItem from "./ProductItem";
+import ProductList from "./ProductList";
 class PageContent extends React.Component {
   render() {
     return (
@@ -10,21 +10,14 @@ class PageContent extends React.Component {
           {/* left  */}
           <div className="col-lg-3">
             {/* Category  */}
-            <Category />
+            <SideBar />
           </div>
           {/* right  */}
           <div className="col-lg-9">
             {/* Carousel  */}
             <Carousel />
-            {/* ProductItem  */}
-            <div className="row">
-              <ProductItem />
-              <ProductItem />
-              <ProductItem />
-              <ProductItem />
-              <ProductItem />
-              <ProductItem />
-            </div>
+            {/* ProductList  */}
+            <ProductList />
           </div>
         </div>
       </div>

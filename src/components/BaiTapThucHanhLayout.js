@@ -1,12 +1,12 @@
 import React from 'react';
-import NavBar from './NavBar';
+import Header from './Header';
 import Footer from './Footer';
 import PageContent from './PageContent';
 class BaiTapThucHanhLayout extends React.Component {
     render() {
         return (
             <div>
-                <NavBar />
+                <Header />
                 <PageContent />
                 <Footer />
             </div>
